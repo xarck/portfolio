@@ -44,6 +44,14 @@ const projects = [
     sourceCode: 'https://github.com/xarck/imager',
     // livePreview: 'https://github.com',
   },
+  {
+    name: 'Generating Anime Faces using Deep Convolutional Networks',
+    description: `Implemented a Deep Convolutional Neural Network (DCNN) using PyTorch to create a Generative Adversarial Network (GAN) for generating anime faces. The generator fabricates realistic data by transforming noise, while the discriminator learns to differentiate between genuine and synthetic data, facilitating an adversarial training process in a GAN.`,
+    stack: ['Pytorch', 'Numpy'],
+    sourceCode:
+      'https://github.com/xarck/Image-Processing/blob/main/CNN/dc_gan.ipynb',
+    // livePreview: 'https://github.com',
+  },
 ]
 
 const skills = [
