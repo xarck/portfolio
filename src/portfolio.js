@@ -1,7 +1,7 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
-  title: 'JS.',
+  // homepage: 'https://xarck.github.io/portfolio/',
+  // title: 'XARCK.',
 }
 
 const about = {
@@ -51,6 +51,16 @@ const projects = [
     sourceCode:
       'https://github.com/xarck/Image-Processing/blob/main/CNN/dc_gan.ipynb',
     // livePreview: 'https://github.com',
+  },
+  {
+    name: 'Stock Price Prediction Using LSTM',
+    description: `Developed LSTM-based stock price prediction model using Python, PyTorch, and Yahoo Finance API (yfinance),
+    achieving an RMSE of 45.71. Integrated a user-friendly interface leveraging Streamlit to enhance the user experience and facilitate seamless
+    interaction with the stock prediction model. Utilized Matplotlib and Pandas for data visualization and manipulation, contributing to comprehensive analysis
+    and interpretation of stock market trends.
+    `,
+    stack: ['Pytorch', 'Streamlit'],
+    sourceCode: 'https://github.com/xarck/Stock-Price-Prediction-using-LSTM',
   },
 ]
 
