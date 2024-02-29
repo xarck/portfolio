@@ -7,9 +7,9 @@ const header = {
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Ashish Negi',
-  role: 'Full Stack Engineer',
+  role: 'Machine Learning & Full Stack Engineer',
   description:
-    "I've honed my skills through practical experiences, including a Full Stack Development internship at Lixotic Solutions, where I adeptly utilized React and implemented CI/CD pipelines for multi-stack applications. My Web Development internship at VisitUttarakhand involved crafting responsive admin portals and integrating server-side functionalities with Node.js. I have successfully delivered impactful projects, such as a sophisticated Blogging Website, E-Commerce Platform, and Image Sharing Platform, showcasing my expertise in React, Node.js, and the MERN stack.",
+    "I've honed my skills through practical experiences, including a Full Stack Development internship at Lixotic Solutions, where I adeptly utilized React and implemented CI/CD pipelines for multi-stack applications. My Web Development internship at VisitUttarakhand involved crafting responsive admin portals and integrating server-side functionalities with Node.js. I have successfully delivered impactful projects, such as a sophisticated Blogging Website, E-Commerce Platform, Stock Price Prediciton, Disease Prediction and Image Sharing Platform,  showcasing my expertise in React, Node.js, and Python",
   resume:
     'https://drive.google.com/file/d/1caVURwL-zPdam62hirMUJKNnLZfzVadW/view?usp=sharing',
   social: {
@@ -23,7 +23,7 @@ const projects = [
   // if there are no projects, Projects section won't show up
   {
     name: 'Blogging Website',
-    description: `Designed and delivered a sophisticated blog platform with modern writing capabilities using Editor JS. Implemented secure Google Authentication and dynamic pagination for seamless user navigation. Enhanced user experience with a dedicated profile featuring profile links, written blogs, and smooth transitions powered by Framer Motion.`,
+    description: `Designed and delivered a sophisticated blog platform with modern writing capabilities using Editor JS. Implemented secure Google Authentication and dynamic pagination for seamless user navigation.`,
     stack: ['JavaScript', 'React', 'NodeJS'],
     sourceCode: 'https://github.com/xarck/Blogger',
     // livePreview: 'https://github.com',
@@ -39,14 +39,14 @@ const projects = [
   {
     name: 'Image Sharing And Hosting Platform',
     description:
-      'Developed a comprehensive Image Sharing and Hosting Platform using the MERN stack, mirroring the core functionalities of Pinterest. Introduced features like seamless image uploading, content bookmarking, robust user authentication, and intuitive social sharing functionalities. The platform provides a dynamic and engaging user experience, combining the power of MongoDB, Express.js, React, and Node.js to deliver a full-stack solution for image enthusiasts.',
+      'Developed a comprehensive Image Sharing and Hosting Platform using the MERN stack, mirroring the core functionalities of Pinterest. Introduced features like seamless image uploading, content bookmarking, robust user authentication, and intuitive social sharing functionalities.',
     stack: ['JavaScript', 'React', 'NodeJS', 'MongoDB'],
     sourceCode: 'https://github.com/xarck/imager',
     // livePreview: 'https://github.com',
   },
   {
     name: 'Generating Anime Faces using Deep Convolutional Networks',
-    description: `Implemented a Deep Convolutional Neural Network (DCNN) using PyTorch to create a Generative Adversarial Network (GAN) for generating anime faces. The generator fabricates realistic data by transforming noise, while the discriminator learns to differentiate between genuine and synthetic data, facilitating an adversarial training process in a GAN.`,
+    description: `Implemented a Deep Convolutional Neural Network (DCNN) using PyTorch to create a Generative Adversarial Network (GAN) for generating anime faces.`,
     stack: ['Pytorch', 'Numpy'],
     sourceCode:
       'https://github.com/xarck/Image-Processing/blob/main/CNN/dc_gan.ipynb',
@@ -56,11 +56,17 @@ const projects = [
     name: 'Stock Price Prediction Using LSTM',
     description: `Developed LSTM-based stock price prediction model using Python, PyTorch, and Yahoo Finance API (yfinance),
     achieving an RMSE of 45.71. Integrated a user-friendly interface leveraging Streamlit to enhance the user experience and facilitate seamless
-    interaction with the stock prediction model. Utilized Matplotlib and Pandas for data visualization and manipulation, contributing to comprehensive analysis
-    and interpretation of stock market trends.
+    interaction with the stock prediction model.
     `,
     stack: ['Pytorch', 'Streamlit'],
     sourceCode: 'https://github.com/xarck/Stock-Price-Prediction-using-LSTM',
+  },
+  {
+    name: 'Disease Detection With X-Ray using Image-Processing',
+    description: ` Developed and implemented a machine learning model utilizing Convolutional Neural Network (CNN) methodologies for disease detection in X-ray images, contributing to early diagnosis. Achieved an impressive 92% accuracy rate in disease prediction.`,
+    stack: ['Pytorch', 'Pandas', 'Numpy'],
+    sourceCode:
+      'https://github.com/xarck/Image-Processing/blob/main/disease.ipynb',
   },
 ]
 
@@ -84,7 +90,7 @@ const skills = [
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'iamashking123@mail.com',
+  email: 'iamashking123@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
